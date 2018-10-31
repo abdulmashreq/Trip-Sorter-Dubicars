@@ -9,41 +9,68 @@ Transportation Boarding Card Sorting.
 		1. http://localhost:2000?json=true  - it will list as json
 	5. http://localhost:2000 - it will show as ordered list
 
+## Solutions
+Folder Structure
+
+    PROJECT_FOLDER
+      - src
+        - Boards
+	  - Airport.php
+	  - Boards.php
+	  - Bus.php
+	  - Flight.php
+	  - Train.php
+        - Execeptions
+	 - TripAPIException.php
+	- Intefaces
+	 - BoardInterface.php
+	- TripAPI.php
+      - tests
+        - TripApiTest.php
+        - test.json
+      - composer.json
+      - index.php
+      - input.json
+      - README.md
+      
+
 ## Methods
 	1. Handling Exceptions
 	2. Interface
+	3. Namespace
 
 ## Json Data 
 -----------
 
-	Sample Json [
-					{
-						"from": "Stockholm",
-						"to": "New York",
-						"modeOfTransport": "Flight",
-						"transportNo": "SK22",
-						"gateNo": "22",
-						"seatNo": "7B"
-					}, {
-						"from": "Gerona Airport",
-						"to": "Stockholm",
-						"modeOfTransport": "Flight",
-						"transportNo": "SK455",
-						"baggage": "334",
-						"gateNo": "45B",
-						"seatNo": "3A"
-					}, {
-						"from": "Madrid",
-						"to": "Barcelona",
-						"modeOfTransport": "Train",
-						"transportNo": "78A",
-						"seatNo": "45B"
-					}, {
-						"from": "Barcelona",
-						"to": "Gerona Airport",
-						"modeOfTransport": "Bus"
-					}
-				];
+	- input.json
+		[
+			{
+				"from": "Stockholm",
+				"to": "New York",
+				"modeOfTransport": "Flight",
+				"transportNo": "SK22",
+				"gateNo": "22",
+				"seatNo": "7B"
+			}, {
+				"from": "Gerona Airport",
+				"to": "Stockholm",
+				"modeOfTransport": "Flight",
+				"transportNo": "SK455",
+				"baggage": "334",
+				"gateNo": "45B",
+				"seatNo": "3A"
+			}, {
+				"from": "Madrid",
+				"to": "Barcelona",
+				"modeOfTransport": "Train",
+				"transportNo": "78A",
+				"seatNo": "45B"
+			}, {
+				"from": "Barcelona",
+				"to": "Gerona Airport",
+				"modeOfTransport": "Bus"
+			}
+		];
 
 #Results:
 --------
