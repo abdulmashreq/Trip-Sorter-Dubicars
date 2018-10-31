@@ -9,10 +9,6 @@ namespace Trip\src\Boards;
  */
 class Airport extends Boards
 {
-    const AIRPORT_BUS_MESSAGE_DEFAULT = "Take the airport bus %s from %s to %s.";
-    const SEAT_NOT_ASSIGNED_MESSAGE = "No seat assignment.";
-    const SEAT_ASSIGNED_MESSAGE = "Sit in Seat %s.";
-
     /**
      * return results as per BoardInterface
      *

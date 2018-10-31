@@ -13,7 +13,7 @@ try {
     
     $boardingMessages = $apiObj->getBoardingMessages();
 
-    $param = $_REQUEST['json'] ?? null;
+    $param = $_REQUEST['json'] ? $_REQUEST['json'] : null;
 
     if ($param == null) {
         foreach ($boardingMessages as $index => $boardingMessage) {

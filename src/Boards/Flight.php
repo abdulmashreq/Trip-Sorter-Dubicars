@@ -9,10 +9,6 @@ namespace Trip\src\Boards;
  */
 class Flight extends Boards
 {
-    const FLIGHT_MESSAGE_DEFAULT = "From %s, take flight %s to %s. Gate %s, Seat %s.";
-    const BAGGAGE_NOT_ASSIGNED_MESSAGE = "Baggage will we automatically transferred from your last leg.";
-    const BAGGAGE_ASSIGNED_MESSAGE = "Baggage drop at ticket counter %s.";
-
     /**
      * return results as per BoardInterface
      *

@@ -94,8 +94,11 @@ https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
 To Run the test:
 
-1. cd PROJECT_FOLDER/tests
-2. Run phpunit TripApiTest.php
+Requirement - PHPUnit 7 above
+
+1. Make sure PHPUNIT has installed or updated latest version. 
+2. cd PROJECT_FOLDER/tests
+3. Run phpunit TripApiTest.php
 
 
 
