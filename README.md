@@ -93,8 +93,8 @@ https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
 To Run the test:
 
-1) cd PROJECT_FOLDER/tests
-2) Run phpunit TripApiTest.php
+1. cd PROJECT_FOLDER/tests
+2. Run phpunit TripApiTest.php
 
 
 
