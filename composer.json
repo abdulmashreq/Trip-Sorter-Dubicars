@@ -1,0 +1,25 @@
+{
+    "name": "abdulnizam/trip-sorter-dubicars",
+    "description": "Trip Sorter - Dubicars",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Nizam",
+            "email": "abdulnizam89@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
