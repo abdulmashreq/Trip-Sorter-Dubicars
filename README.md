@@ -15,19 +15,19 @@ Folder Structure
     PROJECT_FOLDER
       - src
         - Boards
-	  - Airport.php
-	  - Boards.php
-	  - Bus.php
-	  - Flight.php
-	  - Train.php
+		  - Airport.php
+		  - Boards.php
+		  - Bus.php
+		  - Flight.php
+		  - Train.php
         - Execeptions
-	 - TripAPIException.php
+	 	- TripAPIException.php
 	- Intefaces
-	 - BoardInterface.php
+	 	- BoardInterface.php
 	- TripAPI.php
       - tests
-        - TripApiTest.php
-        - test.json
+		- TripApiTest.php
+		- test.json
       - composer.json
       - index.php
       - input.json
