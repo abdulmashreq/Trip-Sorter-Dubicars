@@ -14,17 +14,17 @@ Folder Structure
 
     PROJECT_FOLDER
       - src
-        - Boards
-		  - Airport.php
-		  - Boards.php
-		  - Bus.php
-		  - Flight.php
-		  - Train.php
-        - Execeptions
-	 	- TripAPIException.php
-	- Intefaces
-	 	- BoardInterface.php
-	- TripAPI.php
+      		- Boards
+			  - Airport.php
+			  - Boards.php
+			  - Bus.php
+			  - Flight.php
+			  - Train.php
+        	- Execeptions
+	 		- TripAPIException.php
+		- Intefaces
+			- BoardInterface.php
+		- TripAPI.php
       - tests
 		- TripApiTest.php
 		- test.json
