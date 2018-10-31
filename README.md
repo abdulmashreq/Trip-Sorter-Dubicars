@@ -8,6 +8,7 @@ Transportation Boarding Card Sorting.
 	4. You will see the results on 
 		1. http://localhost:2000?json=true  - it will list as json
 	5. http://localhost:2000 - it will show as ordered list
+	6. You can also use apache server which has already installed in the system. no need to run - php -s
 
 ## Solutions
 Folder Structure
