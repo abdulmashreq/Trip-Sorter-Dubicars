@@ -12,7 +12,7 @@ Transportation Boarding Card Sorting.
 
 ## Requirement 
 	- PHP 7 
-	- PHPUnit 7 
+	- PHPUnit 6 
 
 ## Solutions
 Folder Structure
@@ -100,7 +100,9 @@ To Run the test:
 
 Just download the latest version and replace the old one. It is provided from the phpunit homepage.
 
-	$ wget https://phar.phpunit.de/phpunit.phar
+	$ wget https://phar.phpunit.de/phpunit-6.0.13.phar
+	
+	$ mv phpunit-6.0.13.phar phpunit.phar
 
 	$ chmod +x phpunit.phar
 
