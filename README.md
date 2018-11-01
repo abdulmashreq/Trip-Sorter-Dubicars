@@ -37,7 +37,7 @@ Folder Structure
 
 ## Methods
 	1. Handling Exceptions
-	2. Interface
+	2. Interface Pattern
 	3. Namespace
 
 ## Json Data 
