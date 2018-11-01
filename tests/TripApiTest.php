@@ -18,7 +18,7 @@ final class TripTest extends TestCase
     /**
     *@group TripSorting First Results
     */
-    public function testTripFirstSorting(): void
+    public function testTripFirstSorting()
     {
         $boardingResults = $this->Trip->sortBoardingCards();
         $message = 'Madrid';
@@ -28,7 +28,7 @@ final class TripTest extends TestCase
     /**
     *@group TripSorting Last Results
     */
-    public function testTripLastSorting(): void
+    public function testTripLastSorting()
     {
         $boardingResults = $this->Trip->sortBoardingCards();
         $message = 'New York';
@@ -38,7 +38,7 @@ final class TripTest extends TestCase
     /**
     *@group TripSorting Messages 1
     */
-    public function testTripSortingMessages1(): void
+    public function testTripSortingMessages1()
     {
         $boardingMessages = $this->Trip->getBoardingMessages();
         $message = 'Take train 78A from Madrid to Barcelona.Sit in Seat 45B.';
@@ -48,7 +48,7 @@ final class TripTest extends TestCase
     /**
     *@group TripSorting Messages 2
     */
-    public function testTripSortingMessages2(): void
+    public function testTripSortingMessages2()
     {
         $boardingMessages = $this->Trip->getBoardingMessages();
         $message = 'Take the bus  from Barcelona to Gerona Airport.No seat assignment.';
@@ -58,7 +58,7 @@ final class TripTest extends TestCase
     /**
     *@group TripSorting Messages 3
     */
-    public function testTripSortingMessages3(): void
+    public function testTripSortingMessages3()
     {
         $boardingMessages = $this->Trip->getBoardingMessages();
         $message = 'SK455';
@@ -68,7 +68,7 @@ final class TripTest extends TestCase
     /**
     *@group TripSorting final Messages
     */
-    public function testFinalMessages(): void
+    public function testFinalMessages()
     {
         $boardingMessages = $this->Trip->getBoardingMessages();
         $message = 'You have arrived at your final destination';
