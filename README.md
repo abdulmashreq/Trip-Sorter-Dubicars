@@ -10,6 +10,10 @@ Transportation Boarding Card Sorting.
 	5. http://localhost:2000 - it will show as ordered list of description
 	6. You can also use apache server which has already installed in the system. no need to run - php -s
 
+## Requirement 
+	- PHP 7 
+	- PHPUnit 7 
+
 ## Solutions
 Folder Structure
 
@@ -93,8 +97,6 @@ If you dont have PHPUNIT on your machine, please find the link to install PHPUNI
 https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
 To Run the test:
-
-Requirement - PHPUnit 7 above
 
 Just download the latest version and replace the old one. It is provided from the phpunit homepage.
 
