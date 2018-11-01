@@ -7,43 +7,75 @@ Transportation Boarding Card Sorting.
 	3. php -S localhost:2000
 	4. You will see the results on 
 		1. http://localhost:2000?json=true  - it will list as json
-	5. http://localhost:2000 - it will show as ordered list
+	5. http://localhost:2000 - it will show as ordered list of description
+	6. You can also use apache server which has already installed in the system. no need to run - php -s
+
+## Requirement 
+	- PHP 7.1 
+	- PHPUnit 6 
+
+## Solutions
+Folder Structure
+
+    PROJECT_FOLDER
+	- src
+		- Boards
+			- Airport.php
+			- Boards.php
+			- Bus.php
+			- Flight.php
+			- Train.php
+		- Execeptions
+			- TripAPIException.php
+		- Intefaces
+			- BoardInterface.php
+		- TripAPI.php
+	- tests
+		- TripApiTest.php
+		- test.json
+	- composer.json
+	- index.php
+	- input.json
+	- README.md
+      
 
 ## Methods
 	1. Handling Exceptions
-	2. Interface
+	2. Interface Pattern
+	3. Namespace
 
 ## Json Data 
 -----------
 
-	Sample Json [
-					{
-						"from": "Stockholm",
-						"to": "New York",
-						"modeOfTransport": "Flight",
-						"transportNo": "SK22",
-						"gateNo": "22",
-						"seatNo": "7B"
-					}, {
-						"from": "Gerona Airport",
-						"to": "Stockholm",
-						"modeOfTransport": "Flight",
-						"transportNo": "SK455",
-						"baggage": "334",
-						"gateNo": "45B",
-						"seatNo": "3A"
-					}, {
-						"from": "Madrid",
-						"to": "Barcelona",
-						"modeOfTransport": "Train",
-						"transportNo": "78A",
-						"seatNo": "45B"
-					}, {
-						"from": "Barcelona",
-						"to": "Gerona Airport",
-						"modeOfTransport": "Bus"
-					}
-				];
+	- input.json
+		[
+			{
+				"from": "Stockholm",
+				"to": "New York",
+				"modeOfTransport": "Flight",
+				"transportNo": "SK22",
+				"gateNo": "22",
+				"seatNo": "7B"
+			}, {
+				"from": "Gerona Airport",
+				"to": "Stockholm",
+				"modeOfTransport": "Flight",
+				"transportNo": "SK455",
+				"baggage": "334",
+				"gateNo": "45B",
+				"seatNo": "3A"
+			}, {
+				"from": "Madrid",
+				"to": "Barcelona",
+				"modeOfTransport": "Train",
+				"transportNo": "78A",
+				"seatNo": "45B"
+			}, {
+				"from": "Barcelona",
+				"to": "Gerona Airport",
+				"modeOfTransport": "Bus"
+			}
+		];
 
 #Results:
 --------
@@ -66,8 +98,23 @@ https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
 To Run the test:
 
-1) cd PROJECT_FOLDER/tests
-2) Run phpunit TripApiTest.php
+Just download the latest version and replace the old one. It is provided from the phpunit homepage.
+
+	$ wget https://phar.phpunit.de/phpunit-6.0.13.phar
+	
+	$ mv phpunit-6.0.13.phar phpunit.phar
+
+	$ chmod +x phpunit.phar
+
+	$ sudo mv phpunit.phar /usr/local/bin/phpunit
+
+You are in the latest version. To check version you can use
+
+	$ phpunit --check-version
+
+1. Make sure PHPUNIT has installed or updated latest version. 
+2. cd PROJECT_FOLDER/tests
+3. Run phpunit TripApiTest.php
 
 
 

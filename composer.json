@@ -2,10 +2,10 @@
     "name": "abdulnizam/trip-sorter-dubicars",
     "description": "Trip Sorter - Dubicars",
     "require": {
-        "php": "^7.1"
+        "php": "^7"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7"
+        "phpunit/phpunit": "^6"
     },
     "license": "MIT",
     "authors": [
