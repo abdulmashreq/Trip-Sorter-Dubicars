@@ -10,6 +10,8 @@ Transportation Boarding Card Sorting.
 	5. http://localhost:2000 - it will show as ordered list of description
 	6. You can also use apache server which has already installed in the system. no need to run - php -s
 
+## AWS - http://34.243.193.171/Trip-Sorter-Dubicars/
+
 ## Requirement 
 	- PHP 7 
 	- PHPUnit 6 
