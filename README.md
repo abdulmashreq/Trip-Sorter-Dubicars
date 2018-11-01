@@ -96,6 +96,18 @@ To Run the test:
 
 Requirement - PHPUnit 7 above
 
+Just download the latest version and replace the old one. It is provided from the phpunit homepage.
+
+	$ wget https://phar.phpunit.de/phpunit.phar
+
+	$ chmod +x phpunit.phar
+
+	$ sudo mv phpunit.phar /usr/local/bin/phpunit
+
+You are in the latest version. To check version you can use
+
+	$ phpunit --check-version
+
 1. Make sure PHPUNIT has installed or updated latest version. 
 2. cd PROJECT_FOLDER/tests
 3. Run phpunit TripApiTest.php
