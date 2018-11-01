@@ -11,7 +11,7 @@ Transportation Boarding Card Sorting.
 	6. You can also use apache server which has already installed in the system. no need to run - php -s
 
 ## Requirement 
-	- PHP 7 
+	- PHP 7.1 
 	- PHPUnit 6 
 
 ## Solutions
