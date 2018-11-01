@@ -16,8 +16,8 @@ Transportation Boarding Card Sorting.
 	- PHP 7 
 	- PHPUnit 6 
 
-## Solutions
-Folder Structure
+## SOLID Principles
+Folder Structure - As per SOLID Principles
 
     PROJECT_FOLDER
 	- src
@@ -39,7 +39,6 @@ Folder Structure
 	- index.php
 	- input.json
 	- README.md
-      
 
 ## Methods
 	1. Handling Exceptions
